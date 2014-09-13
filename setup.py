@@ -21,7 +21,7 @@ test_requirements = [
 
 setup(
     name='walker',
-    version='0.0.1',
+    version='0.0.2',
     description='Walker executes the same command on multiple directories.',
     long_description=readme + '\n\n' + history,
     author='D. Yu',
