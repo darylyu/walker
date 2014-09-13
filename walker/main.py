@@ -24,7 +24,7 @@ def main():
     # Traverse through the directories.
     for target in sorted(targets, key=lambda s: s.lower()):
         target_full_path = base + target
-        print "walker: in %s" % target_full_path
+        print "\nwalker: in %s" % target_full_path
         execute_command(target_full_path)
         os.chdir(base)
 
