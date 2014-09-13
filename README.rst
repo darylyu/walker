@@ -46,7 +46,7 @@ git repositories: ::
 
 Here is another example of it showing disk usage: ::
 
-    $ walker
+    $ walker du -cksh
 
     walker: in /home/dyu/src/cookiecutter
     2.1M    .
