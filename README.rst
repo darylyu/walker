@@ -17,6 +17,13 @@ Walker executes the same command on multiple directories.
 * Free software: BSD license
 * Documentation: https://walker.readthedocs.org.
 
+Installation
+---------------
+
+Walker can be installed from PyPI. ::
+
+    $ pip install walker
+
 Usage
 --------
 
