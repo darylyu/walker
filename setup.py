@@ -32,6 +32,11 @@ setup(
     ],
     package_dir={'walker':
                  'walker'},
+    entry_points={
+        'console_scripts': [
+            'walker = walker.main:main',
+        ]
+    },
     include_package_data=True,
     install_requires=requirements,
     license="BSD",
